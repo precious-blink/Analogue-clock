@@ -1,0 +1,121 @@
+
+body{
+    background-color: #282828;
+    color: white;
+    padding-top: 100px;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -5%;
+    margin-bottom: 6%;
+    border-bottom: 1px solid black;
+}
+.clockCon{
+    /* border-radius: 300px; */
+    border: 1px solid black;
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.hand{
+    position: absolute;
+    transform-origin: bottom center;
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    border-radius: 3px;
+}
+.secs{
+    height: 115px;
+    width: 3px;
+    background-color: blue;
+    /* margin-top: 2%; */
+}
+.mins{
+    height: 130px;
+    width: 3px;
+    /* background-color: red; */
+    /* margin-top: 2%; */
+    /* top: 140px; */
+
+}
+.hour{
+    height: 80px;
+    width: 3px;
+    /* margin-top: 2%; */
+    /* background-color: green; */
+    /* top: 135px; */
+}
+.dot{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 3rem;
+}
+b{
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+.number{
+    position: absolute;
+    font-size: 1.8rem;
+}
+.num1{
+    top: 28px;
+    left: 240px;
+}
+.num2{
+    top: 80px;
+    left: 290px;
+}
+.num3{
+    top: 150px;
+    left: 300px;
+}
+.num4{
+    top: 225px;
+    left: 280px;
+}
+.num5{
+    top: 280px;
+    left: 240px;
+}
+.num6{
+    top: 300px;
+    left: 160px;
+}
+.num7{
+    top: 280px;
+    left: 85px;
+}
+
+.num8{
+    top: 225px;
+    left: 40px;
+}
+.num9{
+    top: 150px;
+    left: 20px;
+}
+.num10{
+    top: 80px;
+    left: 35px;
+}
+.num11{
+    top: 28px;
+    left: 85px;
+}
+.num12{
+    top: 5px;
+    left: 160px;
+}
+
+@media (max-width: 700px){
+    .clockCon{
+        margin: 0 auto;
+    }
+}
